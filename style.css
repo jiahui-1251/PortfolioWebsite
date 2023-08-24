@@ -79,7 +79,7 @@ nav .fa{
     }
     .nav-links{
         position: fixed;
-        background: white;
+        background: rgb(216, 210, 210);
         height: 100vh;
         width: 200px;
         top: 0;
