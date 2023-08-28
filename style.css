@@ -19,7 +19,7 @@ body{
     dark green, logo: #02333C
 */
 
-/*Header Section*/
+/*--------Header Section--------*/
 .header{
     /*vh: Relative to 1% of the height of the viewport */
     min-height: 100vh;
@@ -118,7 +118,7 @@ nav .fa{
     }
 }
 
-/*----introduction----*/
+/*--------introduction--------*/
 .introduction{
     display: flex;
     width: 90%;
@@ -201,27 +201,36 @@ nav .fa{
     }
 }
 
-/*About Me*/
+/*--------About Me--------*/
 .about-me{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section-title {
     color: #CCD4DD;
     font-size: 32px;
     font-weight: 600;
+    text-align: center;
 }
 
-.section-subtitle{
+.section-subtitle {
     color: #CCD4DD;
+    text-align: center;
     padding-bottom: 20px;
 }
 
+.about-me-content{
+    color: #CCD4DD;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
 .row{
-    margin-top: 5%;
+    margin-top: 3%;
     display: flex;
     justify-content: space-between;
 }
@@ -240,4 +249,112 @@ nav .fa{
 .about-me-col:hover{
     /* offset-x | offset-y | blur-radius | spread-radiu | color*/
     box-shadow: 0 0 20px 0px #CCD4DD;
+}
+
+.about-me-col h3{
+    margin-top: 2%;
+}
+
+@media(max-width: 1000px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+/*--------Skills--------*/
+.skills{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.skills-box-col {
+    flex-basis: 45%;
+    background-color: #CCD4DD;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px -10px #26394d;
+    padding: 2rem 4rem;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    transition: 0.5s;   
+    padding: 20px 15px;
+    /*norder box tells browser that width & height of element include border or padding added*/
+    box-sizing: border-box;
+}
+
+.skills-box-col:hover{
+    box-shadow: 0 0 20px 0px #CCD4DD;
+}
+
+.skills-box-col i{
+    padding-top: 1%;
+}
+
+.skills-col{
+    display: flex;
+    flex-basis: 50%;
+}
+
+.skills-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.skills-col h5{
+    padding-left: 2%;
+    padding-right: 3%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.skills-col i{
+    padding-top: 3%;
+}
+
+#star{
+    padding-top: 5%;
+}
+/*--------Achievement--------*/
+.achievement{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*--------Qualifications--------*/
+.qualifications{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*--------Projects--------*/
+.projects{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*--------footer--------*/
+.footer{
+    background-color: #051016;
+    color:#CCD4DD;
+}
+
+.attribution{
+    font-size: 8px;
+    color:#CCD4DD;
+    display: block;
 }
