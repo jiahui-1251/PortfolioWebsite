@@ -320,23 +320,14 @@ nav .fa{
 #star{
     padding-top: 5%;
 }
-/*--------Achievement--------*/
-.achievement{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
-/*--------Qualifications--------*/
-.qualifications{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+/*
+@media(max-width: 1000px){
+    .skills-row{
+        display: block;
+    }
 }
+*/
 
 /*--------Projects--------*/
 .projects{
@@ -345,6 +336,10 @@ nav .fa{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.projects img{
+    width: 70%;
 }
 
 /*--------footer--------*/
