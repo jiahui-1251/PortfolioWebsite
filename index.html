@@ -15,17 +15,16 @@
   <body>
 
   <!--HEADER SECTION-->
-	<section class="header">
+	<section class="header" #HEADER>
         <nav>
             <a href="index.html"><img src="images/logo.png"></a>
             <div class="nav-links" id="navLinks">
               <i class="fa fa-times" onclick="hideMenu()"></i>
               <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">COURSE</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="#HEADER">HOME</a></li>
+                <li><a href="#ABOUTME">ABOUT ME</a></li>
+                <li><a href="#ST">SKILLS AND TOOLS</a></li>
+                <li><a href="#PROJECTS">PROJECTS</a></li>
               </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -37,6 +36,10 @@
                 <h1>I AM JIA HUI</h1>
                 <h5>UNDERGRATE SOFTWARE ENGINEERING STUDENT</h5>
                 <a href="" class="hero-btn"><span>DOWNLOAD CV</span></a>
+                <br>
+                <a target="_blank" href="https://github.com/jiahui-1251"><i class="fa-brands fa-github fa-lg"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/tan-j-42307413a/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                <a target="_blank" href="https://www.instagram.com/jiahui_tanjh/"><i class="fa-brands fa-instagram fa-lg"></i></a>
               </div>
             </div>
             <div class="intro-col">
@@ -49,7 +52,7 @@
     </section>
 
     <!--ABOUT ME SECTION-->
-    <section class="about-me">
+    <section class="about-me" id="ABOUTME">
       <h1 class="section-title">About Me</h1>
       <span class="section-subtitle">-A little self introduction-</span>
       <div class="row">
@@ -92,7 +95,7 @@
     </section>
 
     <!--SKILLS SECTION-->
-    <section class="skills">
+    <section class="skills" id="ST">
       <h1 class="section-title">Skills and Tools</h1>
       <span class="section-subtitle">-Overview on my skills-</span>
       <div class="row">
@@ -247,7 +250,7 @@
     </section>
 
     <!--PROJECTS SECTION-->
-    <section class="projects">
+    <section class="projects" id="PROJECTS">
       <h1 class="section-title">Projects</h1>
       <span class="section-subtitle">-Project Done Recently-</span>
       <div class="row">
@@ -266,7 +269,8 @@
         <div class="about-me-col">
           <img src="images/Testing project 1.jpg">
           <h3>Testing</h3>
-          <p>Skills: HTML, CSS, PHP</p>
+          <p>Skills: leadership, project management, test tools</p>
+          <a target="application/pdf" height="700px" width="500" href="pdf/PHP Website Testing 2023.pdf">Project Report -></a>
         </div>
       </div>
     </section>
@@ -274,7 +278,11 @@
     <!--FOOTER SECTION-->
     <section class="footer">
         <div class="footer-col">
-          <h5>image attribution</h5>
+          <h4>Contact me!</h4>
+            <a target="_blank" href="https://github.com/jiahui-1251"><i class="fa-brands fa-github fa-lg"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/tan-j-42307413a/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+            <a target="_blank" href="https://www.instagram.com/jiahui_tanjh/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+          <h6>image attribution</h6>
           <a class="attribution" href="https://www.freepik.com/free-vector/work-home-concept-flat-design_24783527.htm">Image by brgfx on Freepik</a>
         </div>
         <div class="footer-col">

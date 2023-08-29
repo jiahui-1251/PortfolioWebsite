@@ -179,6 +179,15 @@ nav .fa{
     color: #051016;
 }
 
+.introduction a{
+    color: #CCD4DD;
+}
+
+.introduction i{
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
 @media(max-width: 1000px){
     .introduction{
         display: block;
@@ -346,10 +355,27 @@ nav .fa{
 .footer{
     background-color: #051016;
     color:#CCD4DD;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer a{
+    color: #CCD4DD;
 }
 
 .attribution{
     font-size: 8px;
     color:#CCD4DD;
     display: block;
+}
+
+.footer h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.footer h6{
+    margin-top: 10px;
 }
