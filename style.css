@@ -280,7 +280,7 @@ nav .fa{
 }
 
 .skills-box-col {
-    flex-basis: 45%;
+    flex-basis: 48%;
     background-color: #CCD4DD;
     border: 1px solid rgba(0,0,0,.1);
     border-radius: 10px;
@@ -299,35 +299,39 @@ nav .fa{
 }
 
 .skills-box-col i{
-    padding-top: 1%;
+    padding-top: 3%;
 }
 
 .skills-col{
-    display: flex;
-    flex-basis: 50%;
+    padding-top: 2%;
+    padding-right: 2%;
+    margin-right: 2%;
 }
 
 .skills-row{
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
 
 .skills-col h5{
     padding-left: 2%;
-    padding-right: 3%;
+    padding-right: 1%;
     font-size: 18px;
     font-weight: 500;
 }
 
-.skills-col i{
-    padding-top: 3%;
-}
-
 #star{
     padding-top: 5%;
+}
+
+table{
+    width: 100%;
+}
+
+.division{
+    padding-left: 1%;
 }
 
 /*
