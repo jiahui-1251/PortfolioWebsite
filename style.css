@@ -280,12 +280,11 @@ nav .fa{
 }
 
 .skills-box-col {
-    flex-basis: 48%;
+    flex-basis: 32%;
     background-color: #CCD4DD;
     border: 1px solid rgba(0,0,0,.1);
     border-radius: 10px;
     box-shadow: 0 20px 30px -10px #26394d;
-    padding: 2rem 4rem;
     margin-bottom: 5%;
     margin-top: 1%;
     transition: 0.5s;   
@@ -294,31 +293,25 @@ nav .fa{
     box-sizing: border-box;
 }
 
+.skills-box-col h3{
+    padding-bottom: 5px;
+}
+
 .skills-box-col:hover{
     box-shadow: 0 0 20px 0px #CCD4DD;
 }
 
-.skills-box-col i{
-    padding-top: 3%;
-}
-
-.skills-col{
+.skill-data i{
     padding-top: 2%;
-    padding-right: 2%;
-    margin-right: 2%;
 }
 
-.skills-row{
+.skill-data{
     display: flex;
-    justify-content: space-between;
-    margin-top: 2%;
-    margin-bottom: 3%;
+    justify-content: space-around;
 }
 
-.skills-col h5{
-    padding-left: 2%;
-    padding-right: 1%;
-    font-size: 18px;
+.skill-data h5{
+    font-size: 15px;
     font-weight: 500;
 }
 
@@ -326,14 +319,10 @@ nav .fa{
     padding-top: 5%;
 }
 
-table{
-    width: 100%;
-}
+@media(max-width: 1000px){
 
-.division{
-    padding-left: 1%;
-}
 
+}
 /*
 @media(max-width: 1000px){
     .skills-row{
